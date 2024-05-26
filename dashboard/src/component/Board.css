@@ -1,0 +1,41 @@
+.container-fluid {
+  background-color: #f5f5f5;
+}
+
+.table {
+  background-color: white;
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.navs > thead > tr > th {
+  border-top: 0;
+  border-bottom: 2px solid #dee2e6;
+}
+
+.rank-1 {
+  background-image: url('../assets/quality.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.rank-2 {
+  background-image: url('../assets/second-rank.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.rank-3 {
+  background-image: url('../assets/3rd-place.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.div{
+  width: 105vh;
+  margin-left: 64vh;
+}
