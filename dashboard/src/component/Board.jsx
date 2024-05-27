@@ -9,6 +9,7 @@ import harshaImage from '../assets/harsh.jpg';
 import Rank1 from '../assets/quality.png';
 import Rank2 from '../assets/second-rank.png';
 import Rank3 from '../assets/3rd-place.png';
+import Image2 from '../assets/employee.png';
 function Board() {
   const [employees, setEmployees] = useState([
     { rank: 1,image1:Rank1, image0: RakeshImage, name: 'Rakesh Sharma', designation: 'UI/UX Designer', hoursWorked: '7(24)', image: up, changes: '1.5 hrs' },
@@ -72,12 +73,14 @@ function Board() {
         <div className="col-md-8 col-lg-3 mt-5">
           <div className="card">
             <div className="card-header">
-              Employee of the Month
+            
             </div>
             <div className="card-body text-center">
               <img style={{height: '8vh'}} src={employees[0].image0} alt="Employee of the Month" className="img-fluid rounded-circle mx-auto d-block" />
               <h5 className="card-title mt-3">{employees[0].name}</h5>
               <p className="card-text">{employees[0].designation}</p>
+              <h1 className='employee'>Employee of the Month</h1>
+              <img src={Image2} alt="" srcset="" />
             </div>
           </div>
         </div>
